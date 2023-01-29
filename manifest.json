@@ -1,0 +1,22 @@
+{
+    "name": "Jokes",
+    "description":"Extension for random jokes",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+      },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting"
+      ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "logo.png"
+    },
+    "icons": {
+        "128": "logo.png"
+    }
+}
+
